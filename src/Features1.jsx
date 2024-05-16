@@ -9,8 +9,8 @@ import image2 from "./images/Features/f12.jpg";
 import { inView, useAnimation, useInView, motion } from 'framer-motion';
 import Navbar from './components/Navbar';
 
-const Features = () => {
-  const { innerWidth: width, innerHeight: height } = window;
+const Features1 = () => {
+    const { innerWidth: width, innerHeight: height } = window;
   const ref = useRef(null);
   const isInView = useInView(ref);
 
@@ -21,7 +21,6 @@ const Features = () => {
       mainControlls.start("visible");
     }
   }, [isInView]);
-
   return (
     <>
       <Navbar />
@@ -439,7 +438,7 @@ const Features = () => {
       </div>
       
     </>
-  );
-};
+  )
+}
 
-export default Features
+export default Features1
