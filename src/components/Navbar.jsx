@@ -30,9 +30,7 @@ const Navbar = () => {
               <li className="p-2 text-white hover:text-blue-400 cursor-pointer">
                 <Link to="/contact">Contact</Link>
               </li>
-              <li className="p-2 text-white hover:text-blue-400 cursor-pointer">
-                <Link to="/features">Features</Link>
-              </li>
+            
             </ul>
           </div>
           <div className="flex">
@@ -69,9 +67,7 @@ const Navbar = () => {
             <li className="text-white hover:text-blue-400 font-semibold pl-8 cursor-pointer pb-4">
               <Link to="/contact">Contact</Link>
             </li>
-            <li className="text-white hover:text-blue-400 font-semibold pl-8 cursor-pointer pb-4">
-              <Link to="/featurescontact">Features</Link>
-            </li>
+            
           </ul>
           {/* profile section */}
           <div className="bg-gray-200/50 h-[1px] w-[85%] ml-[-10px]">

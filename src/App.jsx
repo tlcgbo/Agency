@@ -9,7 +9,7 @@ import About from './components/Pages/About'
 import Contact from './components/Pages/Contact'
 import Services from './components/Pages/Services'
 import Features from './Features'
-import Features1 from './Features1'
+
 
 function App() {
   return (
@@ -20,7 +20,6 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/contact' element={<Contact />} />
         {/* <Route path='/features' element={<Features />}></Route> */}
-        <Route path='/features' element={<Features1 />} />
       </Routes>  
     </BrowserRouter>
   )

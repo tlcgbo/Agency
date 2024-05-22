@@ -5,6 +5,7 @@ import i1 from "../../images/Services/1.svg";
 import i2 from "../../images/Services/2.svg";
 import i3 from "../../images/Services/3.svg";
 import i4 from "../../images/Services/4.svg";
+import Features from '../../Features';
 
 
 const Services = () => {
@@ -168,7 +169,7 @@ const Services = () => {
             </section>
           </dh-component>    
             </div>
-
+              <Features />
             <div className="xl:px-20 px-6 py-20 xl:mx-auto xl:container">
           <h1 className="xl:text-5xl md:text-4xl text-2xl font-semibold leading-tight text-center text-white sm:mb-0 mb-12">
             More Than 10 Years We Provide Services{" "}
